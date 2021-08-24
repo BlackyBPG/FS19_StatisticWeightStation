@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="46">
+	<author>Blacky_BPG</author>
+	<version>1.9.0.3</version>
+	<title>
+		<en>Statistic weigth station</en>
+		<de>Waage mit Statisikfunktion</de>
+	</title>
+
+	<description>
+		<en>Statistic weigth station</en>
+		<de>Waage mit Statisikfunktion</de>
+	</description>
+
+	<iconFilename>bpglogo.dds</iconFilename>
+	<multiplayer supported="true"/>
+
+	<extraSourceFiles>
+		<sourceFile filename="StatisticWeightStation.lua" />
+	</extraSourceFiles>
+
+	<l10n filenamePrefix="l10n">
+	</l10n>
+
+	<inputBinding>
+		<actionBinding action="STATISTICWEIGHTSTATION">
+			<binding  device="KB_MOUSE_DEFAULT" input="KEY_semicolon" />
+		</actionBinding> 
+	</inputBinding>
+
+	<actions>
+        <action name="STATISTICWEIGHTSTATION" />
+	</actions>
+
+</modDesc>

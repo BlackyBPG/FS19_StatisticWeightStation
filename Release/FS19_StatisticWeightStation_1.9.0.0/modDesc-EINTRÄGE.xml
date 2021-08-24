@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+	<extraSourceFiles>
+		<sourceFile filename="scripts/StatisticWeightStation.lua" />
+	</extraSourceFiles>
+	<l10n>
+		<text name="input_STATISTICWEIGHTSTATION">
+			<en><![CDATA[Weightstation overview]]></en>
+			<de><![CDATA[Waagenübersicht]]></de>
+		</text>
+		<text name="warning_measurement">
+			<en><![CDATA[Measurement in progress! Please wait for %s seconds.]]></en>
+			<de><![CDATA[Messung läuft! Bitte warten Sie %s Sekunden.]]></de>
+		</text>
+		<text name="warning_measurementReady">
+			<en><![CDATA[Measurement done. Please leave weightstation.]]></en>
+			<de><![CDATA[Messung abgeschlossen. Bitte Waage verlassen]]></de>
+		</text>
+		<text name="weightType1">
+			<en><![CDATA[Filltypes]]></en>
+			<de><![CDATA[Fülltypen]]></de>
+		</text>
+		<text name="weightType2">
+			<en><![CDATA[Driver]]></en>
+			<de><![CDATA[Fahrer]]></de>
+		</text>
+		<text name="weightType3">
+			<en><![CDATA[Bales]]></en>
+			<de><![CDATA[Ballen]]></de>
+		</text>
+		<text name="weightType4">
+			<en><![CDATA[Wood]]></en>
+			<de><![CDATA[Holz]]></de>
+		</text>
+		<text name="weightMass">
+			<en><![CDATA[%s kg]]></en>
+			<de><![CDATA[%s kg]]></de>
+		</text>
+		<text name="weightPiece">
+			<en><![CDATA[%s pcs]]></en>
+			<de><![CDATA[%s Stk]]></de>
+		</text>
+		<text name="numPlayers">
+			<en><![CDATA[%s drivers]]></en>
+			<de><![CDATA[%s Fahrer]]></de>
+		</text>
+		<text name="numBales">
+			<en><![CDATA[Bales: %s pcs]]></en>
+			<de><![CDATA[Ballen: %s Stk]]></de>
+		</text>
+		<text name="weightBales">
+			<en><![CDATA[Bales: %s kg]]></en>
+			<de><![CDATA[Ballen: %s kg]]></de>
+		</text>
+		<text name="weightWood">
+			<en><![CDATA[Wood: %s kg]]></en>
+			<de><![CDATA[Holz: %s kg]]></de>
+		</text>
+		<text name="weightStation1">
+			<en><![CDATA[Weightstaion left]]></en>
+			<de><![CDATA[Waage Links]]></de>
+		</text>
+		<text name="weightStation2">
+			<en><![CDATA[Weightstaion right]]></en>
+			<de><![CDATA[Waage Rechts]]></de>
+		</text>
+		<text name="weightStation3">
+			<en><![CDATA[Weightstaion old]]></en>
+			<de><![CDATA[Waage Alt]]></de>
+		</text>
+		<text name="weightStation4">
+			<en><![CDATA[Weightstaion 18m]]></en>
+			<de><![CDATA[Waage 18m]]></de>
+		</text>
+		<text name="weightStation5">
+			<en><![CDATA[Weightstaion]]></en>
+			<de><![CDATA[Waage]]></de>
+		</text>
+	</l10n>
+
+	<inputBinding>
+		<actionBinding action="STATISTICWEIGHTSTATION">
+			<binding  device="KB_MOUSE_DEFAULT" input="KEY_semicolon" />
+		</actionBinding> 
+	</inputBinding>
+
+	<actions>
+        <action name="STATISTICWEIGHTSTATION" />
+	</actions>

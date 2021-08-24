@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<text name="input_STATISTICWEIGHTSTATION" text="Weightstationoverview" />
+		<text name="warning_measurement" text="Measurement in progress! Please wait %s seconds." />
+		<text name="warning_measurementReady" text="Measurement completed. Please leave the weightstation" />
+		<text name="weightType1" text="Filltypes" />
+		<text name="weightType2" text="Driver" />
+		<text name="weightType3" text="Bales" />
+		<text name="weightType4" text="Wood" />
+		<text name="weightMass" text="%s kg" />
+		<text name="weightPiece" text="%s pcs" />
+		<text name="numPlayers" text="%s Driver" />
+		<text name="numBales" text="Bales: %s pcs" />
+		<text name="weightBales" text="Bales: %s kg" />
+		<text name="weightWood" text="Wood: %s kg" />
+		<text name="weightStation1" text="Weightstaion left" />  <!-- Hofname	-->
+		<text name="weightStation2" text="Weightstaion right" /> <!-- Hofname	-->
+		<text name="weightStation3" text="Weightstaion old" />    <!-- Hofname	-->
+		<text name="weightStation4" text="Weightstaion 18m" />    <!-- Hofname	-->
+		<text name="weightStation5" text="Weightstaion" />
+		<text name="weightStation6" text="Weightstaion Getreide-AG" />
+
+		<text name="animals_Agrargesellschaft_Kandelin" text="HaGe" />
+		<text name="animals_Kuhhof_Neuendorf" text="Cow stables Neuendorf" />
+		<text name="station_BGA_Stielow" text="BGA Cow stable Stielow" />
+		<text name="station_BGA_Kemnitz" text="BGA Kemnitz" />
+		<text name="Erdfruchthandel" text="Denz Neuendorf" />
+		<text name="station_Getreide_AG" text="Getreide AG" />
+	</texts>
+</l10n>

@@ -1,0 +1,86 @@
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value
+2021-08-01 12:02 Error: Running LUA method 'draw'.
+2021-08-01 12:02 D:/+Eigene Dateien+/My Games/FarmingSimulator2019/mods/FS_19_Kemnitz/maps/scripts/StatisticWeightStation.lua:1478: attempt to index a nil value

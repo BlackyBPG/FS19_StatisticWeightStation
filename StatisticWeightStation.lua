@@ -3,6 +3,8 @@
 -- by Blacky_BPG
 -- 
 --
+-- Version 1.9.0.3   |	23.08.2021 - fix no player displayed in overview
+-- Version 1.9.0.2   |	01.08.2021 - fix wrong display line
 -- Version 1.9.0.1   |	17.04.2021 - fix wrong event
 -- Version 1.9.0.0   |	16.04.2021 - initial FS19 release
 --
@@ -11,8 +13,8 @@
 
 
 StatisticWeightStation = {}
-StatisticWeightStation.version = "1.9.0.1"
-StatisticWeightStation.date = "17.04.2021"
+StatisticWeightStation.version = "1.9.0.3"
+StatisticWeightStation.date = "23.08.2021"
 StatisticWeightStation.maxMeasurementTime = 5000
 StatisticWeightStation_mt = Class(StatisticWeightStation, Object)
 InitObjectClass(StatisticWeightStation, "StatisticWeightStation")
@@ -996,6 +998,9 @@ print(" ++ loading StatisticWeightStation V "..tostring(StatisticWeightStation.v
 -- by Blacky_BPG
 -- 
 --
+-- Version 1.9.0.3   |	23.08.2021 - fix no player displayed in overview
+-- Version 1.9.0.2   |	01.08.2021 - fix wrong display line
+-- Version 1.9.0.1   |	17.04.2021 - fix wrong event
 -- Version 1.9.0.0   |	16.04.2021 - 
 --
 -- No script change without my permission
@@ -1003,8 +1008,8 @@ print(" ++ loading StatisticWeightStation V "..tostring(StatisticWeightStation.v
 
 
 StatisticWeightStationOverview = {}
-StatisticWeightStationOverview.version = "1.9.0.0"
-StatisticWeightStationOverview.date = "16.04.2021"
+StatisticWeightStationOverview.version = "1.9.0.3"
+StatisticWeightStationOverview.date = "23.08.2021"
 StatisticWeightStationOverview.keyId = nil
 StatisticWeightStationOverview.directory = g_currentModDirectory
 
@@ -1387,7 +1392,7 @@ function StatisticWeightStationOverview:draw()
 			local colorChanger = 0
 			local hoverFillType = 0
 			if self.buttonsLeftState > 0 and self.buttonsTopState > 0 then
-				local wStation = g_currentMission.StatisticWeightStations[self.buttonsLeftState]
+ 				local wStation = g_currentMission.StatisticWeightStations[self.buttonsLeftState]
 				if wStation ~= nil then
 					if self.buttonsTopState == 1 and wStation.measurementFillTypes ~= nil then
 						setTextColor(self.buttonColorLine.r,self.buttonColorLine.g,self.buttonColorLine.b,self.buttonColorLine.a)
@@ -1439,7 +1444,7 @@ function StatisticWeightStationOverview:draw()
 										setTextColor(self.buttonColorD.r,self.buttonColorD.g,self.buttonColorD.b,self.buttonColorD.a)
 									end
 									setTextAlignment(RenderText.ALIGN_LEFT)
-									renderText(xStart, yStart - ((lineACounter - 1) * (self.lineTextSize * 1.75)), self.lineTextSize * 1.5, wStation.measurementFillTypes[hoverFillType].player[j].name)
+									renderText(xStart, yStart - ((lineACounter - 1) * (self.lineTextSize * 1.75)), self.lineTextSize * 1.5, Utils.getNoNil(wStation.measurementFillTypes[hoverFillType].player[j].name," "))
 									setTextAlignment(RenderText.ALIGN_RIGHT)
 									renderText(xRight, yStart - ((lineACounter - 1) * (self.lineTextSize * 1.75)), self.lineTextSize * 1.5, string.format(g_i18n:getText("weightMass"),self:formatNumbers(wStation.measurementFillTypes[hoverFillType].player[j].mass,3)))
 									self.currentPOStart = yStart - ((lineACounter) * (self.lineTextSize * 1.75))
@@ -1459,7 +1464,7 @@ function StatisticWeightStationOverview:draw()
 									renderOverlay(self.lines[lineCounter].back, self.lines[lineCounter].x, self.lines[lineCounter].y, self.lineWidth, self.lineHeight)
 								end
 								setTextAlignment(RenderText.ALIGN_LEFT)
-								renderText(self.lines[lineCounter].textX, self.lines[lineCounter].textY, self.lineTextSize, wStation.measurementPlayer[i].name)
+								renderText(self.lines[lineCounter].textX, self.lines[lineCounter].textY, self.lineTextSize, Utils.getNoNil(wStation.measurementTrunks.player[i].name," "))
 								setTextAlignment(RenderText.ALIGN_RIGHT)
 								renderText(self.buttonsTop[1].x + self.buttonsWidth, self.lines[lineCounter].textY, self.lineTextSize, string.format(g_i18n:getText("weightMass"),self:formatNumbers(wStation.measurementPlayer[i].mass,3)))
 								local numFilltypes = 0
@@ -1569,7 +1574,7 @@ function StatisticWeightStationOverview:draw()
 										setTextColor(self.buttonColorD.r,self.buttonColorD.g,self.buttonColorD.b,self.buttonColorD.a)
 									end
 									setTextAlignment(RenderText.ALIGN_LEFT)
-									renderText(xStart, yStart - ((lineACounter - 1) * (self.lineTextSize * 1.75)), self.lineTextSize * 1.5, wStation.measurementBales[hoverFillType].player[j].name)
+									renderText(xStart, yStart - ((lineACounter - 1) * (self.lineTextSize * 1.75)), self.lineTextSize * 1.5, Utils.getNoNil(wStation.measurementTrunks.player[j].name," "))
 									setTextAlignment(RenderText.ALIGN_RIGHT)
 									renderText(xMid, yStart - ((lineACounter - 1) * (self.lineTextSize * 1.75)), self.lineTextSize * 1.5, string.format(g_i18n:getText("weightPiece"),self:formatNumbers(wStation.measurementBales[hoverFillType].player[j].count,0)))
 									renderText(xRight, yStart - ((lineACounter - 1) * (self.lineTextSize * 1.75)), self.lineTextSize * 1.5, string.format(g_i18n:getText("weightMass"),self:formatNumbers(wStation.measurementBales[hoverFillType].player[j].mass,3)))
@@ -1589,7 +1594,7 @@ function StatisticWeightStationOverview:draw()
 									renderOverlay(self.lines[lineCounter].back, self.lines[lineCounter].x, self.lines[lineCounter].y, self.lineWidth, self.lineHeight)
 								end
 								setTextAlignment(RenderText.ALIGN_LEFT)
-								renderText(self.lines[lineCounter].textX, self.lines[lineCounter].textY, self.lineTextSize, wStation.measurementTrunks.player[j].name)
+								renderText(self.lines[lineCounter].textX, self.lines[lineCounter].textY, self.lineTextSize, Utils.getNoNil(wStation.measurementTrunks.player[j].name," "))
 								setTextAlignment(RenderText.ALIGN_RIGHT)
 								renderText(self.buttonsTop[2].textX, self.lines[lineCounter].textY, self.lineTextSize, string.format(g_i18n:getText("weightMass"),self:formatNumbers(wStation.measurementTrunks.player[j].mass,3)))
 								renderText(self.buttonsTop[3].textX, self.lines[lineCounter].textY, self.lineTextSize, string.format(g_i18n:getText("weightPiece"),self:formatNumbers(wStation.measurementTrunks.player[j].count,0)))

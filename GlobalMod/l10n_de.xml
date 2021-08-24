@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<text name="input_STATISTICWEIGHTSTATION" text="Waagenübersicht" />
+		<text name="warning_measurement" text="Messung läuft! Bitte warten Sie %s Sekunden." />
+		<text name="warning_measurementReady" text="Messung abgeschlossen. Bitte Waage verlassen" />
+		<text name="weightType1" text="Fülltypen" />
+		<text name="weightType2" text="Fahrer" />
+		<text name="weightType3" text="Ballen" />
+		<text name="weightType4" text="Holz" />
+		<text name="weightMass" text="%s kg" />
+		<text name="weightPiece" text="%s Stk" />
+		<text name="numPlayers" text="%s Fahrer" />
+		<text name="numBales" text="Ballen: %s Stk" />
+		<text name="weightBales" text="Ballen: %s kg" />
+		<text name="weightWood" text="Holz: %s kg" />
+		<text name="weightStation1" text="Waage Links" />  <!-- Hofname	-->
+		<text name="weightStation2" text="Waage Rechts" /> <!-- Hofname	-->
+		<text name="weightStation3" text="Waage Alt" />    <!-- Hofname	-->
+		<text name="weightStation4" text="Waage 18m" />    <!-- Hofname	-->
+		<text name="weightStation5" text="Waage" />
+		<text name="weightStation6" text="Waage Getreide_AG" />
+
+		<text name="animals_Agrargesellschaft_Kandelin" text="HaGe" />
+		<text name="station_BGA_Kemnitz" text="BGA Kemnitz" />
+		<text name="station_BGA_Stielow" text="Kuhhof Stielow" />
+		<text name="animals_Kuhhof_Neuendorf" text="Kuhhof Neuendorf" />
+		<text name="Erdfruchthandel" text="Denz Neuendorf" />
+		<text name="station_Getreide_AG" text="Getreide AG" />
+	</texts>
+</l10n>
